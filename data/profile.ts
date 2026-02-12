@@ -13,13 +13,13 @@ export interface Profile {
 
 export const profile: Profile = {
   name: "Mohamed Cherif Junior",
-  title: "Ingénieur Logiciel Senior",
-  description: "Développeur Full-Stack spécialisé dans la création d'applications web modernes et performantes",
+  title: "Développeur Web Junior | Étudiant en 2ème année à Digital Campus Paris",
+  description: "Étudiant passionné en informatique spécialisé en développement web avec React, Node.js et les technologies modernes",
   email: "juniorcherif2004@gmail.com",
   phone: "0767247415",
   linkedin: "https://www.linkedin.com/in/mohamed-cherif-18166739a/",
   github: "https://github.com/juniorcherif2004-star",
-  location: "France",
-  about: "Ingénieur logiciel passionné avec une expertise approfondie en développement web full-stack. Je conçois et développe des applications modernes, évolutives et performantes en utilisant les dernières technologies. Mon approche combine une solide compréhension des principes d'ingénierie logicielle avec une passion pour l'innovation et l'excellence technique.",
-  vision: "Mon objectif est de créer des solutions numériques qui ont un impact réel et positif. Je crois en la puissance de la technologie pour résoudre des problèmes complexes et améliorer la vie quotidienne des utilisateurs. Je m'engage à livrer du code de haute qualité, maintenable et scalable tout en restant à la pointe des dernières tendances technologiques."
+  location: "Paris, France",
+  about: "Étudiant en deuxième année d'informatique à Digital Campus Paris, passionné par le développement web. J'acquiers actuellement des compétences solides en React, Node.js, Express.js, HTML/CSS, JavaScript, TypeScript, Tailwind CSS, NestJS et MongoDB. J'utilise activement l'IA pour optimiser mon apprentissage et mon développement. Je suis motivé à créer des applications web modernes et performantes.",
+  vision: "En tant qu'étudiant développeur, mon objectif est de continuer à apprendre et maîtriser les technologies web modernes pour devenir un développeur full-stack compétent. Je veux appliquer mes connaissances pour créer des projets innovants et contribuer à des solutions numériques qui ont un impact positif. L'IA et les nouvelles technologies m'enthousiasment et je veux explorer leurs possibilités dans le développement web."
 };
