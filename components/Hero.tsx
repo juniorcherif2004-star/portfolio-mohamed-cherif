@@ -38,34 +38,58 @@ export function Hero() {
           animate="visible"
           className="text-center"
         >
-          <motion.div variants={itemVariants} className="mb-8">
-            <div className="w-32 h-32 mx-auto mb-6 rounded-full bg-gradient-to-r from-primary-500 to-secondary-500 p-1">
-              <div className="w-full h-full rounded-full bg-white dark:bg-secondary-900 flex items-center justify-center">
-                <span className="text-4xl font-bold gradient-text">MCJ</span>
+          <motion.div 
+            variants={itemVariants}
+            className="flex flex-col lg:flex-row gap-8 items-center justify-center mb-8"
+          >
+            <motion.div
+              variants={itemVariants}
+              className="relative"
+            >
+              <div className="w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden border-4 border-primary-500 dark:border-primary-400 shadow-2xl">
+                <img 
+                  src="/images/profile.jpg" 
+                  alt="Mohamed Cherif Junior"
+                  className="w-full h-full object-cover"
+                  onError={(e) => {
+                    const target = e.target as HTMLImageElement;
+                    target.style.display = 'none';
+                    const fallback = target.nextElementSibling as HTMLElement;
+                    if (fallback) fallback.style.display = 'flex';
+                  }}
+                />
+                <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-primary-500 to-primary-600 text-white text-4xl font-bold" style={{display: 'none'}}>
+                  MJ
+                </div>
               </div>
-            </div>
+            </motion.div>
+
+            <motion.div 
+              variants={itemVariants}
+              className="text-center lg:text-left flex-1"
+            >
+              <motion.h1 
+                variants={itemVariants}
+                className="text-4xl md:text-6xl font-bold text-secondary-900 dark:text-white mb-4"
+              >
+                {profile.name}
+              </motion.h1>
+
+              <motion.h2 
+                variants={itemVariants}
+                className="text-2xl md:text-3xl text-primary-600 dark:text-primary-400 mb-6"
+              >
+                {profile.title}
+              </motion.h2>
+
+              <motion.p 
+                variants={itemVariants}
+                className="text-lg md:text-xl text-secondary-600 dark:text-secondary-300 mb-8 max-w-3xl"
+              >
+                {profile.description}
+              </motion.p>
+            </motion.div>
           </motion.div>
-
-          <motion.h1 
-            variants={itemVariants}
-            className="text-4xl md:text-6xl font-bold text-secondary-900 dark:text-white mb-4"
-          >
-            {profile.name}
-          </motion.h1>
-
-          <motion.h2 
-            variants={itemVariants}
-            className="text-2xl md:text-3xl text-primary-600 dark:text-primary-400 mb-6"
-          >
-            {profile.title}
-          </motion.h2>
-
-          <motion.p 
-            variants={itemVariants}
-            className="text-lg md:text-xl text-secondary-600 dark:text-secondary-300 mb-8 max-w-3xl mx-auto"
-          >
-            {profile.description}
-          </motion.p>
 
           <motion.div 
             variants={itemVariants}

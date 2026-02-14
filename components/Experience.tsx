@@ -17,59 +17,31 @@ interface ExperienceItem {
 const experiences: ExperienceItem[] = [
   {
     id: '1',
-    title: 'Ingénieur Logiciel Senior',
-    company: 'Tech Innovation Lab',
+    title: 'Étudiant en Développement Web',
+    company: 'Digital Campus Paris',
     location: 'Paris, France',
-    period: '2022 - Présent',
+    period: '2023 - Présent',
     description: [
-      'Conception et développement d\'applications web full-stack avec React et Node.js',
-      'Mise en place d\'architectures microservices et d\'API RESTful',
-      'Mentorat d\'équipe de 5 développeurs juniors',
-      'Optimisation des performances et amélioration de la scalabilité'
+      'Formation en informatique spécialisée en développement web',
+      'Apprentissage des technologies modernes : React, Node.js, TypeScript',
+      'Réalisation de projets académiques et pratiques',
+      'Utilisation de l\'IA pour optimiser l\'apprentissage et le développement'
     ],
-    technologies: ['React', 'Node.js', 'TypeScript', 'PostgreSQL', 'Docker', 'AWS']
+    technologies: ['React', 'Node.js', 'TypeScript', 'JavaScript', 'HTML/CSS', 'MongoDB']
   },
   {
     id: '2',
-    title: 'Développeur Full Stack senior avec plus de 5 ans d\'expérience dans la création d\'applications web modernes et évolutives.',
-    company: 'Digital Solutions Agency',
-    location: 'Lyon, France',
-    period: '2020 - 2022',
+    title: 'Projets Académiques',
+    company: 'Digital Campus Paris',
+    location: 'Paris, France',
+    period: '2023 - 2024',
     description: [
-      'Développement de sites web et applications pour clients B2B',
-      'Intégration de systèmes de paiement et de gestion des stocks',
-      'Collaboration avec les équipes UX/UI pour créer des interfaces intuitives',
-      'Maintenance et évolution d\'applications existantes'
+      'Développement d\'applications web complètes en équipe',
+      'Création d\'API RESTful avec Node.js et Express.js',
+      'Implémentation de bases de données MongoDB',
+      'Pratique du développement responsive avec Tailwind CSS'
     ],
-    technologies: ['Vue.js', 'Express.js', 'MongoDB', 'Stripe', 'Tailwind CSS']
-  },
-  {
-    id: '3',
-    title: 'Développeur Frontend',
-    company: 'Creative Web Studio',
-    location: 'Marseille, France',
-    period: '2018 - 2020',
-    description: [
-      'Création d\'interfaces utilisateur responsives et interactives',
-      'Intégration de maquettes Figma en code HTML/CSS/JavaScript',
-      'Optimisation du SEO et des performances web',
-      'Participation au développement d\'applications mobiles avec React Native'
-    ],
-    technologies: ['JavaScript', 'React', 'HTML5', 'CSS3', 'Sass', 'Figma']
-  },
-  {
-    id: '4',
-    title: 'Développeur Junior',
-    company: 'StartUp Tech',
-    location: 'Bordeaux, France',
-    period: '2017 - 2018',
-    description: [
-      'Développement de fonctionnalités pour l\'application principale',
-      'Correction de bugs et amélioration continue du code existant',
-      'Participation aux revues de code et aux réunions techniques',
-      'Apprentissage des meilleures pratiques de développement'
-    ],
-    technologies: ['JavaScript', 'jQuery', 'Bootstrap', 'PHP', 'MySQL']
+    technologies: ['React', 'Node.js', 'Express.js', 'MongoDB', 'Tailwind CSS', 'Git']
   }
 ];
 
