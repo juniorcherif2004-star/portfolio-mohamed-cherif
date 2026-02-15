@@ -48,7 +48,7 @@ export function Hero() {
             >
               <div className="w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden border-4 border-primary-500 dark:border-primary-400 shadow-2xl">
                 <img 
-                  src="/images/profile.jpg" 
+                  src="/photos/profile.jpg" 
                   alt="Mohamed Cherif Junior"
                   className="w-full h-full object-cover"
                   onError={(e) => {
