@@ -133,6 +133,9 @@ export function Skills() {
                     <p className="text-sm text-secondary-500 dark:text-secondary-400">
                       {skill.category}
                     </p>
+                    <p className="text-xs text-secondary-600 dark:text-secondary-300 mt-1 line-clamp-2">
+                      {skill.description}
+                    </p>
                   </div>
                 </div>
                 <div className="text-right">
