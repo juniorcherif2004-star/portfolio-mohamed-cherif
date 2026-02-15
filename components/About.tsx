@@ -124,7 +124,7 @@ export function About() {
           >
             <motion.div variants={itemVariants} className="card p-6">
               <h4 className="text-lg font-semibold text-secondary-900 dark:text-white mb-3">
-                🎯 Objectifs Professionnels
+                 Objectifs Professionnels
               </h4>
               <ul className="space-y-2 text-secondary-600 dark:text-secondary-300">
                 <li className="flex items-start">
@@ -144,7 +144,7 @@ export function About() {
 
             <motion.div variants={itemVariants} className="card p-6">
               <h4 className="text-lg font-semibold text-secondary-900 dark:text-white mb-3">
-                💡 Valeurs
+                 Valeurs
               </h4>
               <ul className="space-y-2 text-secondary-600 dark:text-secondary-300">
                 <li className="flex items-start">
@@ -164,12 +164,12 @@ export function About() {
 
             <motion.div variants={itemVariants} className="card p-6">
               <h4 className="text-lg font-semibold text-secondary-900 dark:text-white mb-3">
-                📍 Localisation & Contact
+                 Localisation & Contact
               </h4>
               <div className="space-y-2 text-secondary-600 dark:text-secondary-300">
-                <p>📍 {profile.location}</p>
-                <p>📧 {profile.email}</p>
-                <p>📱 {profile.phone}</p>
+                <p> {profile.location}</p>
+                <p> {profile.email}</p>
+                <p> {profile.phone}</p>
               </div>
             </motion.div>
           </motion.div>
