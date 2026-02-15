@@ -113,7 +113,7 @@ export function Contact() {
       setToast({
         show: true,
         type: 'success',
-        message: 'Message envoyé avec succès! Je vous répondrai dans les plus brefs délais.'
+        message: 'Message envoyé avec succès! En tant qu\'étudiant, je vous répondrai dans les plus brefs délais.'
       });
 
       // Reset form
@@ -174,7 +174,7 @@ export function Contact() {
             variants={itemVariants}
             className="mt-6 text-lg text-secondary-600 dark:text-secondary-300 max-w-2xl mx-auto"
           >
-            N&apos;hésitez pas à me contacter pour discuter de vos projets, collaborations ou opportunités professionnelles.
+            Étudiant passionné par le développement web, je suis ouvert aux opportunités de stage, de formation complémentaire ou de collaboration sur des projets académiques.
           </motion.p>
         </motion.div>
 
@@ -265,27 +265,27 @@ export function Contact() {
 
             <motion.div variants={itemVariants} className="card p-6">
               <h3 className="text-xl font-semibold text-secondary-900 dark:text-white mb-4">
-                Disponibilité
+                Disponibilité Étudiante
               </h3>
               <p className="text-secondary-600 dark:text-secondary-300 mb-4">
-                Je suis actuellement disponible pour de nouvelles opportunités professionnelles :
+                En tant qu&apos;étudiant en Licence 2, je suis disponible pour :
               </p>
               <ul className="space-y-2 text-secondary-600 dark:text-secondary-300">
                 <li className="flex items-center gap-2">
                   <CheckCircle className="w-4 h-4 text-green-500" />
-                  Contrats à temps plein
+                  Stages en développement web
                 </li>
                 <li className="flex items-center gap-2">
                   <CheckCircle className="w-4 h-4 text-green-500" />
-                  Projets freelance
+                  Projets académiques collaboratifs
                 </li>
                 <li className="flex items-center gap-2">
                   <CheckCircle className="w-4 h-4 text-green-500" />
-                  Consultations techniques
+                  Formations complémentaires
                 </li>
                 <li className="flex items-center gap-2">
                   <CheckCircle className="w-4 h-4 text-green-500" />
-                  Mentorat et formation
+                  Opportunités d&apos;apprentissage
                 </li>
               </ul>
             </motion.div>

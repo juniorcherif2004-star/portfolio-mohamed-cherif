@@ -59,59 +59,11 @@ export function About() {
           >
             <motion.div variants={itemVariants} className="mb-8">
               <h3 className="text-2xl font-semibold text-secondary-900 dark:text-white mb-4">
-                Ingénieur Logiciel Passionné
+                Étudiant Passionné
               </h3>
               <p className="text-secondary-600 dark:text-secondary-300 leading-relaxed mb-6">
                 {profile.about}
               </p>
-            </motion.div>
-
-            <motion.div variants={itemVariants} className="mb-8">
-              <h3 className="text-2xl font-semibold text-secondary-900 dark:text-white mb-4">
-                Ma Vision
-              </h3>
-              <p className="text-secondary-600 dark:text-secondary-300 mb-8 leading-relaxed">
-                Ingénieur logiciel senior avec plus de 5 ans d&apos;expérience dans le développement d&apos;applications web modernes et performantes. Passionné par les technologies émergentes et l&apos;innovation.
-              </p>
-              <div className="grid grid-cols-2 gap-6">
-                <div className="text-center p-4 bg-secondary-50 dark:bg-secondary-800 rounded-lg">
-                  <div className="text-3xl font-bold text-primary-600 dark:text-primary-400 mb-2">5+</div>
-                  <div className="text-sm text-secondary-600 dark:text-secondary-400">Années d&apos;expérience</div>
-                </div>
-                <div className="text-center p-4 bg-secondary-50 dark:bg-secondary-800 rounded-lg">
-                  <div className="text-3xl font-bold text-primary-600 dark:text-primary-400 mb-2">50+</div>
-                  <div className="text-sm text-secondary-600 dark:text-secondary-400">Projets réalisés</div>
-                </div>
-                <div className="text-center p-4 bg-secondary-50 dark:bg-secondary-800 rounded-lg">
-                  <div className="text-3xl font-bold text-primary-600 dark:text-primary-400 mb-2">15+</div>
-                  <div className="text-sm text-secondary-600 dark:text-secondary-400">Technologies maîtrisées</div>
-                </div>
-                <div className="text-center p-4 bg-secondary-50 dark:bg-secondary-800 rounded-lg">
-                  <div className="text-3xl font-bold text-primary-600 dark:text-primary-400 mb-2">100%</div>
-                  <div className="text-sm text-secondary-600 dark:text-secondary-400">Satisfaction client</div>
-                </div>
-              </div>
-            </motion.div>
-
-            <motion.div variants={itemVariants}>
-              <div className="grid grid-cols-2 gap-6">
-                <div className="text-center p-4 bg-secondary-50 dark:bg-secondary-800 rounded-lg">
-                  <div className="text-3xl font-bold text-primary-600 dark:text-primary-400 mb-2">5+</div>
-                  <div className="text-sm text-secondary-600 dark:text-secondary-400">Années d&apos;expérience</div>
-                </div>
-                <div className="text-center p-4 bg-secondary-50 dark:bg-secondary-800 rounded-lg">
-                  <div className="text-3xl font-bold text-primary-600 dark:text-primary-400 mb-2">50+</div>
-                  <div className="text-sm text-secondary-600 dark:text-secondary-400">Projets réalisés</div>
-                </div>
-                <div className="text-center p-4 bg-secondary-50 dark:bg-secondary-800 rounded-lg">
-                  <div className="text-3xl font-bold text-primary-600 dark:text-primary-400 mb-2">15+</div>
-                  <div className="text-sm text-secondary-600 dark:text-secondary-400">Technologies maîtrisées</div>
-                </div>
-                <div className="text-center p-4 bg-secondary-50 dark:bg-secondary-800 rounded-lg">
-                  <div className="text-3xl font-bold text-primary-600 dark:text-primary-400 mb-2">100%</div>
-                  <div className="text-sm text-secondary-600 dark:text-secondary-400">Satisfaction client</div>
-                </div>
-              </div>
             </motion.div>
           </motion.div>
 
