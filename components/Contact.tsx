@@ -268,24 +268,24 @@ export function Contact() {
                 Disponibilité Étudiante
               </h3>
               <p className="text-secondary-600 dark:text-secondary-300 mb-4">
-                En tant qu&apos;étudiant en Licence 2, je suis disponible pour :
+                En tant qu&apos;étudiant en Licence 2 à Web School Factory, je recherche activement :
               </p>
               <ul className="space-y-2 text-secondary-600 dark:text-secondary-300">
                 <li className="flex items-center gap-2">
                   <CheckCircle className="w-4 h-4 text-green-500" />
-                  Stages en développement web
+                  Alternance 2 jours cours / 3 jours entreprise
                 </li>
                 <li className="flex items-center gap-2">
                   <CheckCircle className="w-4 h-4 text-green-500" />
-                  Projets académiques collaboratifs
+                  Projets en entreprise rémunérés
                 </li>
                 <li className="flex items-center gap-2">
                   <CheckCircle className="w-4 h-4 text-green-500" />
-                  Formations complémentaires
+                  Opportunités de développement web
                 </li>
                 <li className="flex items-center gap-2">
                   <CheckCircle className="w-4 h-4 text-green-500" />
-                  Opportunités d&apos;apprentissage
+                  Expériences professionnelles formatrices
                 </li>
               </ul>
             </motion.div>
