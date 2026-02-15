@@ -17,31 +17,115 @@ interface ExperienceItem {
 const experiences: ExperienceItem[] = [
   {
     id: '1',
-    title: 'Étudiant en Développement Web',
-    company: 'Digital Campus Paris',
-    location: 'Paris, France',
-    period: '2023 - Présent',
+    title: 'Coach Rollers',
+    company: 'GESCO ROLLERS CLUB',
+    location: 'Abidjan',
+    period: '04/2021 – 07/2024',
     description: [
-      'Formation en informatique spécialisée en développement web',
+      'Accueil des clients, réponse à leurs demandes de renseignements avec efficacité et courtoisie',
+      'Présentation des caractéristiques et des avantages des produits, démonstration des fonctionnalités',
+      'Définition des besoins du client, conseil et proposition de produits adaptés',
+      'Processus assure une gestion efficace des abonnements et garantit la conformité aux normes'
+    ],
+    technologies: ['Communication', 'Service client', 'Vente', 'Gestion']
+  },
+  {
+    id: '2',
+    title: 'Agent Commercial',
+    company: 'MTN CÔTE D\'IVOIRE',
+    location: 'Abidjan',
+    period: '05/2020 – 09/2020',
+    description: [
+      'Conseil et vente des produits et services MTN',
+      'Relation client et suivi des dossiers',
+      'Atteinte des objectifs commerciaux',
+      'Travail en équipe et coordination'
+    ],
+    technologies: ['Vente', 'Communication', 'Relation client', 'Objectifs commerciaux']
+  },
+  {
+    id: '3',
+    title: 'Étudiant en Licence 2 Développement Web',
+    company: 'Digital Campus Paris',
+    location: 'Paris',
+    period: '09/2025 – aujourd\'hui',
+    description: [
+      'Formation spécialisée en développement web et mobile',
       'Apprentissage des technologies modernes : React, Node.js, TypeScript',
-      'Réalisation de projets académiques et pratiques',
-      'Utilisation de l\'IA pour optimiser l\'apprentissage et le développement'
+      'Réalisation de projets pratiques et académiques',
+      'Utilisation de l\'IA pour optimiser l\'apprentissage'
     ],
     technologies: ['React', 'Node.js', 'TypeScript', 'JavaScript', 'HTML/CSS', 'MongoDB']
   },
   {
-    id: '2',
-    title: 'Projets Académiques',
-    company: 'Digital Campus Paris',
-    location: 'Paris, France',
-    period: '2023 - 2024',
+    id: '4',
+    title: 'Étudiant en Bachelors 1 Gestion de Projet',
+    company: 'Web School Factory',
+    location: 'Paris',
+    period: '09/2024 – 05/2025',
     description: [
-      'Développement d\'applications web complètes en équipe',
-      'Création d\'API RESTful avec Node.js et Express.js',
-      'Implémentation de bases de données MongoDB',
-      'Pratique du développement responsive avec Tailwind CSS'
+      'Formation en gestion de projet web',
+      'Méthodologies agiles et gestion d\'équipe',
+      'Planification et suivi de projets',
+      'Coordination avec les équipes techniques'
     ],
-    technologies: ['React', 'Node.js', 'Express.js', 'MongoDB', 'Tailwind CSS', 'Git']
+    technologies: ['Gestion de projet', 'Méthodes agiles', 'Planification', 'Coordination']
+  },
+  {
+    id: '5',
+    title: 'Étudiant en Licence 2 Développement Web',
+    company: 'GECOS FORMATION',
+    location: 'Abidjan',
+    period: '09/2023 – 04/2024',
+    description: [
+      'Formation approfondie en développement web',
+      'Programmation JavaScript et frameworks',
+      'Création de sites web dynamiques',
+      'Initiation aux bases de données'
+    ],
+    technologies: ['JavaScript', 'HTML/CSS', 'PHP', 'MySQL', 'Web dynamique']
+  },
+  {
+    id: '6',
+    title: 'Étudiant en Licence 1 Développement Web',
+    company: 'GECOS FORMATION',
+    location: 'Abidjan',
+    period: '09/2022 – 07/2023',
+    description: [
+      'Initiation au développement web',
+      'Bases de HTML, CSS et JavaScript',
+      'Premiers projets web personnels',
+      'Apprentissage des fondamentaux de la programmation'
+    ],
+    technologies: ['HTML', 'CSS', 'JavaScript', 'Algorithmes', 'Logique de programmation']
+  },
+  {
+    id: '7',
+    title: 'Étudiant en Licence 1 Réseau et Génie Logiciel',
+    company: 'PIGIER CÔTE D\'IVOIRE',
+    location: 'Abidjan',
+    period: '09/2021 – 06/2022',
+    description: [
+      'Formation en réseaux informatiques',
+      'Initiation au génie logiciel',
+      'Bases de la programmation et algorithmes',
+      'Concepts fondamentaux des systèmes d\'information'
+    ],
+    technologies: ['Réseaux', 'Génie logiciel', 'Algorithmes', 'Systèmes d\'information']
+  },
+  {
+    id: '8',
+    title: 'Baccalauréat',
+    company: 'COLLEGE YADA CLEMENT',
+    location: 'Abidjan',
+    period: '09/2020 – 07/2021',
+    description: [
+      'Obtention du baccalauréat',
+      'Spécialisation scientifique',
+      'Projet personnel d\'initiation à la programmation',
+      'Premiers pas dans le monde numérique'
+    ],
+    technologies: ['Baccalauréat', 'Scientifique', 'Culture générale', 'Numérique']
   }
 ];
 
