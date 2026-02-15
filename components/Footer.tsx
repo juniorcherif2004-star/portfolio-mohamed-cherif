@@ -50,7 +50,7 @@ export function Footer() {
           <motion.div variants={itemVariants}>
             <h3 className="text-xl font-semibold mb-4">Mohamed Cherif Junior</h3>
             <p className="text-secondary-300 mb-4 leading-relaxed">
-              Ingénieur logiciel senior passionné par la création d&apos;applications web modernes et performantes.
+              Étudiant passionné par le développement web et les technologies modernes.
             </p>
             <div className="flex gap-3">
               <a
